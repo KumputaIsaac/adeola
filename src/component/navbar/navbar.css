@@ -1,0 +1,28 @@
+.loginrush {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.loginrush .loginrushpic {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background: #000;
+}
+
+.loginrush .loginname {
+	margin: 0 20px;
+}
+
+.loginrush .logout {
+	margin-left: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+	.loginrush .loginrushpic,
+	.loginname,
+	.loginmoney {
+		display: none;
+	}
+}

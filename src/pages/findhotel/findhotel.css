@@ -1,0 +1,63 @@
+.findhotel .inputcheck {
+	display: flex;
+	justify-content: space-between;
+	padding: 120px;
+}
+
+.findhotel .inputcheck .firstinput {
+	width: 30%;
+	height: 56px;
+}
+
+.findhotel .inputcheck .firstinput input {
+	width: 100%;
+	height: 100%;
+	outline: none;
+	border: none;
+	padding: 20px;
+	background: #f7f7f7;
+	border-radius: 3px;
+}
+
+.findhotel .inputcheck .firstinput .checkbook {
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.findhotel .inputcheck .firstinput .checkbook .check {
+	width: 45%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #4aa8ff;
+	border-radius: 3px;
+	color: white;
+}
+
+.findhotel .inputcheck .firstinput .checkbook .check:last-child {
+	background: #d7ecff;
+	color: #4aa8ff;
+}
+
+.findhotel h1 {
+	font-weight: bold;
+	text-align: center;
+	font-size: 24px;
+	padding: 0 50px;
+	margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+	.findhotel .inputcheck {
+		flex-direction: column;
+		justify-content: center;
+		padding: 35px;
+	}
+
+	.findhotel .inputcheck .firstinput {
+		margin-bottom: 20px;
+		width: 100%;
+	}
+}

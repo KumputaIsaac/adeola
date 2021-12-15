@@ -1,0 +1,173 @@
+.room {
+	margin: 10px 120px;
+}
+
+.roompic {
+	/* width: 100%; */
+	border-radius: 23px;
+}
+
+.room .roompic img {
+	width: 100%;
+}
+
+/* ifeegrand */
+.room .ifegrand {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+}
+
+.room .ifegrand .talk {
+	margin-right: 20px;
+}
+
+.room .ifegrand .talk p {
+	font-size: 24px;
+	/* line-height: 19px; */
+}
+
+.room .ifegrand .talk p:first-child {
+	font-weight: bold;
+	font-size: 48px;
+	line-height: 50px;
+	margin-bottom: 20px;
+}
+
+.room .ifegrand .shape .book {
+	display: flex;
+	justify-content: space-between;
+	height: 45px;
+}
+
+.room .ifegrand .shape .book:first-child {
+	margin-bottom: 20px;
+}
+.room .ifegrand .shape .book:first-child .four:nth-child(2) {
+	background: #d7ecff;
+	color: #4aa8ff;
+}
+
+.room .ifegrand .shape .book:first-child .four:first-child {
+	background: #4aa8ff;
+	color: white;
+}
+
+.room .ifegrand .shape .book .four {
+	border-radius: 6px;
+	width: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.room .ifegrand .shape .book .four:first-child {
+	margin-right: 20px;
+}
+
+.room .ifegrand .shape .book:nth-child(2) .four {
+	color: #4aa8ff;
+	border: 1px solid #4aa8ff;
+}
+
+/* checkhotel */
+
+.room .checkhotel {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 50px;
+	/* height: 400px; */
+}
+
+.room .checkhotel .check {
+	width: 50%;
+	padding: 20px;
+	border: 1px solid #dddddd;
+	border-radius: 10px;
+	/* display: flex; */
+}
+
+.room .checkhotel .check .chacn {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 50px;
+	color: #000000;
+}
+
+.room .checkhotel .check .chacn .button {
+	background: #4aa8ff;
+	border-radius: 6px;
+	width: 140px;
+	height: 45px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 22px;
+	color: #ffffff;
+}
+
+.room .checkhotel .check .inputcheck {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.room .checkhotel .check .inputcheck input {
+	width: 35%;
+	outline: none;
+	height: 56px;
+	background: #f7f7f7;
+	border-radius: 3px;
+	border: none;
+}
+
+.room .checkhotel .check .inputcheck input:last-child {
+	width: 20%;
+	padding-left: 15px;
+}
+
+.room .checkhotel .hotel {
+	width: 40%;
+}
+
+@media only screen and (max-width: 800px) {
+	.room {
+		margin: 10px 30px;
+	}
+	.room .roompic {
+		/* margin: 10px 30px; */
+		border-radius: 23px;
+	}
+
+	/* .room .ifegrand */
+	.room .ifegrand {
+		flex-direction: column;
+	}
+
+	.room .ifegrand .shape {
+		margin-top: 22px;
+	}
+
+	.room .ifegrand .talk {
+		text-align: center;
+	}
+
+	.room .ifegrand .shape .book {
+		font-size: 14px;
+	}
+
+	/* checkroom  */
+	.room .checkhotel {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.room .checkhotel .check {
+		width: 100%;
+	}
+}

@@ -1,0 +1,16 @@
+.login .logincontent .inputspace .firstlast {
+	display: flex;
+	/* flex-direction: row; */
+}
+
+.login .logincontent .inputspace .firstlast input:first-child {
+	margin-right: 25px;
+}
+
+.login .logincontent .inputspace input {
+	margin-bottom: 20px;
+}
+
+.loginbox.try {
+	margin: 0px auto 10px !important;
+}

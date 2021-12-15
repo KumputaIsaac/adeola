@@ -1,0 +1,476 @@
+a {
+	text-decoration: none;
+	color: inherit;
+	cursor: pointer;
+}
+
+.homepage .navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 73px;
+	height: 105px;
+	font-family: "Roboto", sans-serif;
+}
+
+.homepage .navbar .logo {
+	font-weight: bold;
+	font-size: 24px;
+	color: #4aa8ff;
+}
+
+.homepage .navbar .content ul {
+	display: flex;
+	list-style: none;
+	font-size: 18px;
+	text-align: center;
+	color: #000000;
+}
+
+.homepage .navbar .content ul li {
+	margin-left: 80px;
+}
+.homepage .navbar select {
+	border: none;
+	outline: none;
+	font-size: 18px;
+	text-align: center;
+	color: #000000;
+}
+
+.homepage .navbar .loginsignin {
+	display: flex;
+	align-items: center;
+}
+
+.homepage .navbar .loginsignin .login {
+	background: #4aa8ff;
+	border-radius: 6px;
+	width: 121px;
+	height: 46px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.homepage .navbar .loginsignin .login:first-child {
+	margin-right: 40px;
+	margin-left: 10px;
+	background-color: #d7ecff;
+}
+
+.homepage .navbar .icon {
+	display: none;
+}
+
+/* backgroundbring */
+.backgroundbring {
+	height: 100vh;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 100px;
+	/* background: url(../images/Group\ 49.png); */
+	/* background: url(/images/Group\ 49.png); */
+	/* background-image: url("/images/Group 49.png"); */
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.backgroundbring .bringhotel:nth-child(2) {
+	background-color: white;
+	border: 1px solid #d7ecff;
+	box-shadow: 0px 4px 25px rgba(74, 168, 255, 0.08);
+	border-radius: 9px;
+}
+
+.backgroundbring .bringhotel p {
+	font-size: 30px;
+	line-height: 41px;
+	color: white;
+}
+
+.backgroundbring .bringhotel p:first-child {
+	font-weight: 800;
+	font-size: 64px;
+	line-height: 73px;
+	margin-bottom: 20px;
+}
+
+.backgroundbring .bringhotel .findhotel {
+	width: 400px;
+	height: 500px;
+	padding: 50px 40px;
+}
+
+.backgroundbring .bringhotel .findhotel p {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 44px;
+	color: #4aa8ff;
+}
+
+.backgroundbring .bringhotel .findhotel input {
+	width: 100%;
+	height: 56px;
+	background: #f7f7f7;
+	border-radius: 3px;
+	margin-top: 20px;
+	padding: 20px;
+	outline: none;
+	border: none;
+}
+
+.backgroundbring .bringhotel .findhotel .checknow {
+	width: 60%;
+	height: 50px;
+	margin: 30px auto;
+	border-radius: 5px;
+	border: 1px solid #4aa8ff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+/* .suggestedbox  */
+
+.homepage .suggestedbox {
+	display: flex;
+	padding: 100px 80px 0px;
+}
+
+.homepage .suggestedbox .suggested p:nth-child(2) {
+	font-size: 24px;
+	line-height: 31px;
+	color: #000000;
+	margin-top: 16px;
+	padding-right: 20px;
+}
+
+.homepage .suggestedbox .suggested {
+	font-weight: bold;
+	font-size: 40px;
+	color: #000000;
+	margin-right: 10px;
+}
+
+.homepage .suggestedbox .box {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.homepage .suggestedbox .box .insidebox {
+	width: 195px;
+	height: 156px;
+	border: 1px solid #4aa8ff;
+	box-sizing: border-box;
+	border-radius: 5px;
+	margin-top: 10px;
+	padding: 20px 10px;
+}
+
+.homepage .suggestedbox .box .insidebox .state {
+	font-weight: 300;
+	font-size: 12px;
+	color: #4aa8ff;
+}
+
+.homepage .suggestedbox .box .insidebox .state p:first-child {
+	font-weight: 600;
+	font-size: 24px;
+	color: #4aa8ff;
+}
+
+.homepage .suggestedbox .box .insidebox .state:first-child {
+	margin-bottom: 10px;
+}
+
+/* spg  */
+.homepage .spg {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 80px;
+	margin-top: 100px;
+}
+
+.homepage .spg .safe {
+	width: 340px;
+	margin-right: 10px;
+}
+
+.homepage .spg .safe .icon {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 53px;
+	height: 53px;
+	border-radius: 50%;
+	background: rgba(74, 168, 255, 0.1);
+}
+
+.homepage .spg .safe p {
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.homepage .spg .safe p:nth-child(2) {
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 50px;
+	margin-top: 16px;
+}
+
+.homepage .todaysdeal {
+	padding: 0 60px;
+}
+
+.homepage .todaysdeal p {
+	text-align: center;
+	font-weight: bold;
+	font-size: 40px;
+	line-height: 50px;
+	margin-top: 100px;
+}
+
+.homepage .todaysdeal p:nth-child(2) {
+	font-size: 24px;
+	line-height: 31px;
+	text-align: center;
+	margin-top: 20px;
+	font-weight: normal;
+	margin-bottom: 50px;
+}
+
+.homepage .picturexela {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 80px;
+}
+
+.homepage .picturexela .pictext {
+	width: 388px;
+	height: auto;
+	margin-right: 10px;
+	padding: 20px;
+	border: 1px solid #d7ecff;
+	box-shadow: 0px 4px 10px rgba(74, 168, 255, 0.08);
+	border-radius: 9px;
+}
+
+.homepage .picturexela .pictext p {
+	font-size: 14px;
+	line-height: 19px;
+	color: #4aa8ff;
+}
+
+.homepage .picturexela .pictext p:nth-child(2) {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 50px;
+}
+
+.homepage .picturexela .pictext img {
+	width: 100%;
+}
+
+/* footer  */
+.homepage .footer {
+	height: 400px;
+	background: #000000;
+	padding: 50px 200px;
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	color: white;
+}
+
+.homepage .footer .contactus {
+	margin-right: 20px;
+}
+
+.homepage .footer .contactus p {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 50px;
+}
+
+.homepage .footer .contactus li {
+	list-style: none;
+	font-size: 14px;
+}
+
+/* hiddennav */
+
+.hiddennav {
+	height: 100vh;
+	background: #4aa8ff;
+	width: 100%;
+	position: fixed;
+	top: 0;
+	right: -100%;
+	transition: 0.5s ease;
+	z-index: 90;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 1.5rem;
+}
+
+.move {
+	right: 0;
+}
+
+.hiddennav ul li {
+	list-style: none;
+	margin-bottom: 80px;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+	.homepage .navbar .content ul li {
+		margin-left: 40px;
+	}
+
+	.homepage .navbar {
+		padding: 0 20px;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+	.homepage .navbar .content {
+		display: none;
+	}
+	.homepage .navbar .loginsignin {
+		display: none;
+	}
+	.homepage .navbar .icon {
+		display: flex;
+	}
+
+	/* .backgroundbring */
+	.backgroundbring {
+		flex-direction: column;
+		height: auto;
+		padding: 40px;
+	}
+
+	.backgroundbring .bringhotel,
+	.backgroundbring .bringhotel .findhotel {
+		width: 100%;
+		padding: 20px;
+		height: auto;
+	}
+
+	.backgroundbring .bringhotel p {
+		font-size: 24px;
+		line-height: 32px;
+	}
+
+	.backgroundbring .bringhotel p:first-child {
+		font-weight: 800;
+		font-size: 36px;
+		line-height: 42px;
+	}
+
+	.homepage .suggestedbox {
+		display: block;
+		padding: 40px 20px;
+	}
+	.homepage .suggestedbox .box .insidebox {
+		width: 140px;
+		height: 113px;
+		border: 1px solid #4aa8ff;
+		border-radius: 5px;
+		margin-top: 33px;
+		padding: 0 10px;
+	}
+	.homepage .suggestedbox .suggested {
+		font-weight: bold;
+		font-size: 30px;
+		line-height: 37px;
+		color: #000000;
+	}
+	.homepage .suggestedbox .suggested p:nth-child(2) {
+		font-size: 18px;
+		line-height: 25px;
+		color: #000000;
+	}
+
+	.homepage .suggestedbox .box .insidebox .state {
+		font-weight: 300;
+		font-size: 10px;
+		color: #4aa8ff;
+	}
+
+	.homepage .suggestedbox .box .insidebox .state p:first-child {
+		font-weight: 600;
+		font-size: 20px;
+		color: #4aa8ff;
+	}
+
+	.homepage .suggestedbox .box .insidebox .state:first-child {
+		margin-bottom: 5px;
+	}
+
+	/* spg  */
+	.homepage .spg {
+		display: block;
+		padding: 0 40px;
+	}
+	.homepage .spg .safe {
+		margin: 0 auto;
+		margin-top: 20px;
+	}
+
+	.homepage .spg .safe p:nth-child(2) {
+		font-size: 20px;
+		margin-top: 10px;
+	}
+
+	/* .homepage .picturexela */
+
+	.homepage .picturexela {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.homepage .picturexela .pictext {
+		margin-bottom: 35px;
+	}
+
+	/* .homepage .footer */
+	.homepage .footer {
+		flex-direction: column;
+		height: auto;
+		padding: 50px;
+	}
+	.homepage .footer .contactus {
+		margin-top: 20px;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.homepage .spg .safe {
+		width: 100%;
+	}
+	/* .homepage .picturexela .pictext */
+	.homepage .picturexela .pictext {
+		width: 290px;
+	}
+
+	.backgroundbring {
+		flex-direction: column;
+		height: auto;
+		padding: 15px;
+	}
+
+	.backgroundbring .bringhotel {
+		padding: 0;
+	}
+}

@@ -1,0 +1,8 @@
+/* .hoteladeola .homepage .picturexela .pictext {
+	width: auto;
+} */
+
+.hoteladeola .homepage .picturexela .pictext a p:last-child {
+	margin-top: 20px;
+	color: #2ecc40;
+}
